@@ -1,6 +1,6 @@
 import AppKit
 
-public extension StackView {
+public extension NSStackView {
     /// Indicate that the stack view removes hidden views from its view hierarchy.
     func detachesHiddenViews(_ detaches: Bool = true) -> Self {
         detachesHiddenViews = detaches
