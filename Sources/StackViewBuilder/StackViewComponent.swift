@@ -15,4 +15,9 @@ public extension StackViewComponent {
         }
         return self
     }
+    
+    @inlinable
+    func size(_ size: NSSize) -> Self {
+        self.size(width: size.width, height: size.height)
+    }
 }
